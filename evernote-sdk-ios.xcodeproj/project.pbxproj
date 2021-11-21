@@ -648,7 +648,6 @@
 		BE2E245A18EBA5D500BD7E6E /* ENSaveToEvernoteActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENSaveToEvernoteActivity.h; sourceTree = "<group>"; };
 		BE2E245B18EBA5D500BD7E6E /* ENSaveToEvernoteActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENSaveToEvernoteActivity.m; sourceTree = "<group>"; };
 		BE2E24E818EDD4A300BD7E6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BE2E25B018EDE1C100BD7E6E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		BE2E25D718F4D6C200BD7E6E /* ENMLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENMLConstants.h; sourceTree = "<group>"; };
 		BE2E25D818F4D6C200BD7E6E /* ENMLConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENMLConstants.m; sourceTree = "<group>"; };
 		BE2E25DC18F4DCE600BD7E6E /* ENSDKPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENSDKPrivate.m; sourceTree = "<group>"; };
@@ -759,7 +758,6 @@
 			isa = PBXGroup;
 			children = (
 				6D9D61681E2796FC001740D8 /* libxml2.2.tbd */,
-				BE2E25B018EDE1C100BD7E6E /* MobileCoreServices.framework */,
 				A9BE476B1781FAFA00471BF7 /* libxml2.dylib */,
 				0BB3D1B01524ED96001C4534 /* Foundation.framework */,
 				0BB3D24D1524EEF3001C4534 /* UIKit.framework */,
@@ -1442,6 +1440,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				"zh-cn",
 				Base,
